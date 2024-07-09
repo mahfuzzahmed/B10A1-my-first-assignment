@@ -241,7 +241,7 @@ nav {
     height: 187.32px;
 }
 
-/* my inspo */
+/* my inspo section */
 
 .whole-inspo {
 
@@ -278,6 +278,70 @@ nav {
 }
 
 .ytb {
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
+/* my current target */
+.target {
+    width: 1140px;
+    height: 460px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.target-content {
+    width: 946px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.target-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target1 {
+    width: 30%;
+    padding: 40px;
+}
+
+.target1 h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.target1 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.target1 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
