@@ -51,7 +51,9 @@ body {
     padding: 12px 20px 12px 20px;
     background-color: white;
 }
-
+.margin{
+    margin-top: 100px;
+}
 
 
 /* nav styles */
@@ -130,8 +132,9 @@ nav {
     width: 852px;
     height: 113px;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0 47px;
+    margin-bottom: 48px;
 }
 
 .top-con-title {
@@ -151,8 +154,11 @@ nav {
 }
 
 /* box 1 starts here */
+.box1-container{
+    margin-bottom: 32px;
+}
 .box1 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     width: 850px;
     height: 240px;
@@ -164,45 +170,19 @@ nav {
     align-items: center;
     gap: 98px;
 }
-
-/* 
-.box1 h5 {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 16px;
-} */
-
-/* .box1 p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-    margin-bottom: 32px;
-
-} */
-
-/* .bx1-btn {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    padding: 12px 20px 12px 20px;
-    background-color: white;
-} */
-
 .bx1-pic {
     width: 259.56px;
     height: 217.01px;
 
 }
-
 /* box 1 ends here */
 
 /* box 2 starts */
+.box2-container{
+    margin-bottom: 32px;
+}
 .box2 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 850px;
     height: 240px;
     padding: 48px;
@@ -217,21 +197,39 @@ nav {
     width: 223.2px;
     height: 208.85px;
 }
-.box2-content{
+
+.box2-content {
     margin: 10.5px 101px 10.5px 0;
 }
 
+/* box 2 ends here */
+
+/* box 3 starts */
 .box3 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 850px;
     height: 240px;
     padding: 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 149.8px;
 }
+.box3-content{
+    margin:10px 0 10px 0;
+}
+.bx3-pic {
+    width: 206.4px;
+    height: 187.32px;
+}
+
 
 .master-box {
     width: 946px;
     height: 1233px;
-    padding: 80px 97px 80px 97px;
+    padding: 80px 97px;
     margin: 0 auto;
-
+    border: 2px solid red;
 }
+
