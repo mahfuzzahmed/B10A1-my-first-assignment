@@ -51,7 +51,8 @@ body {
     padding: 12px 20px 12px 20px;
     background-color: white;
 }
-.margin{
+
+.margin {
     margin-top: 100px;
 }
 
@@ -128,6 +129,14 @@ nav {
 }
 
 /* why web development */
+.master-box {
+    width: 946px;
+    height: 1233px;
+    padding: 80px 97px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
 .top-content {
     width: 852px;
     height: 113px;
@@ -154,9 +163,10 @@ nav {
 }
 
 /* box 1 starts here */
-.box1-container{
+.box1-container {
     margin-bottom: 32px;
 }
+
 .box1 {
     /* border: 2px solid red; */
 
@@ -170,17 +180,20 @@ nav {
     align-items: center;
     gap: 98px;
 }
+
 .bx1-pic {
     width: 259.56px;
     height: 217.01px;
 
 }
+
 /* box 1 ends here */
 
 /* box 2 starts */
-.box2-container{
+.box2-container {
     margin-bottom: 32px;
 }
+
 .box2 {
     /* border: 2px solid red; */
     width: 850px;
@@ -204,6 +217,8 @@ nav {
 
 /* box 2 ends here */
 
+
+
 /* box 3 starts */
 .box3 {
     /* border: 2px solid red; */
@@ -216,20 +231,53 @@ nav {
     align-items: center;
     gap: 149.8px;
 }
-.box3-content{
-    margin:10px 0 10px 0;
+
+.box3-content {
+    margin: 10px 0 10px 0;
 }
+
 .bx3-pic {
     width: 206.4px;
     height: 187.32px;
 }
 
+/* my inspo */
 
-.master-box {
-    width: 946px;
-    height: 1233px;
-    padding: 80px 97px;
+.whole-inspo {
+
+    width: 1140px;
+    height: 775px;
+    /* border: 2px solid red; */
     margin: 0 auto;
-    border: 2px solid red;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-inspo-content {
+    width: 852px;
+    height: 113px;
+    text-align: center;
+}
+
+.my-inspo-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.my-inspo-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+}
+
+.ytb {
+    border-radius: 15px; 
 }
 
