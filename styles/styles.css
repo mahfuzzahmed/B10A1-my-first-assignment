@@ -57,7 +57,19 @@ body {
 .margin {
     margin-top: 100px;
 }
-
+/* color styles */
+.pink{
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.blue{
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+.yellow{
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
 
 /* nav styles */
 nav {
@@ -319,6 +331,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .target1 {
