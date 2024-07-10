@@ -379,10 +379,12 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
-.next-target-container{
+
+.next-target-container {
     padding: 40px;
     /* border: 2px solid red; */
 }
+
 .next-target {
     width: 1060px;
     height: 139px;
@@ -398,15 +400,18 @@ nav {
 .next-target img {
     width: 94.78px;
     height: 84.41px;
-  align-items: center;
+    align-items: center;
 }
+
 .next-target h6 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 8px;
-}.next-target p {
+}
+
+.next-target p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -414,19 +419,101 @@ nav {
     opacity: 0.7;
     margin-bottom: 24px;
 
-}.next-target a {
+}
+
+.next-target a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 700;
 }
+
 .next-target .node-img {
     width: 143.3px;
     height: 87.75px;
-  align-items: center;
+    align-items: center;
 }
+
 .next-target .mongo-img {
     width: 108px;
     height: 108px;
-  align-items: center;
+    align-items: center;
+}
+
+/* i need help */
+.ineed-help {
+    width: 1140px;
+    height: 313px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-image: url("../assets/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ind-help-content {
+    width: 730px;
+    height: 104px;
+    border: 2px solid red;
+}
+
+.ineed-help h1 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.ineed-help p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+}
+
+
+.footer-box {
+    margin-top: 24px;
+    width: 684px;
+    height: 57px;
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+.ind-help-box {
+    width: 82%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 20px 19px 20px;
+}
+
+.ind-help-submit {
+    width: 17%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
+
 }
